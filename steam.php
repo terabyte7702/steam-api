@@ -2,7 +2,7 @@
 	<?php
 		require __DIR__ . '/lib/openid.php';
 
-		define('STEAM_REDIRECT', 'https://steam-api-omega.vercel.app/');
+		define('STEAM_REDIRECT', 'https://steam-api-omega.vercel.app/steam.php');
 
 		try {
 			$openid = new LightOpenID(STEAM_REDIRECT); // здесь константа со ссылкой на этот скрипт
