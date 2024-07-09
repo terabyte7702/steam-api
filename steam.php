@@ -1,6 +1,6 @@
 <html>
 	<?php
-		require __DIR__ . '/lib/OpenID.php';
+		require __DIR__ . '/lib/openid.php';
 
 		define('STEAM_REDIRECT', 'steam-api-omega.vercel.app');
 
