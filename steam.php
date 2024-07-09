@@ -1,4 +1,4 @@
-<hmtl>
+<html>
 	<?php
 require __DIR__ . '/inc/OpenID.php';
 
@@ -29,4 +29,4 @@ catch(ErrorException $e) {
 }
 
 ?>
-<ntml>
+</html>
